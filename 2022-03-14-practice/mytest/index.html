@@ -1,0 +1,19 @@
+---
+tittle: 那个监控
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+    <ul>
+        {% for one_ip in site.data.ip_list %}
+            <li>{{one_ip.ip}}  {{one_ip.status}}</li>
+        {% endfor %}
+    </ul>
+  </body>
+</html>

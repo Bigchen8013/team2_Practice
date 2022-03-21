@@ -1,0 +1,8 @@
+- ip: qq.com
+  status: ok
+
+- ip: www.baidu.com
+  status: ok
+
+- ip: 192.168.223.121
+  status: ok
